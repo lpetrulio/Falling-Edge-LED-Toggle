@@ -18,9 +18,9 @@ This Verilog module, `blink_LED`, toggles an LED (`o_LED`) each time a push butt
 - Ensure `i_Clk` is a **stable clock source** (e.g., FPGA system clock).  
 
 ## **Key Features**  
-✔ **Falling edge detection** – LED toggles only when the button is released.  
-✔ **Debounce-friendly design** – Can be enhanced with a debouncing circuit if needed.  
-✔ **Synchronous operation** – Controlled by `i_Clk` for stable behavior.  
+**Falling edge detection** – LED toggles only when the button is released.  
+**Debounce-friendly design** – Can be enhanced with a debouncing circuit if needed.  
+**Synchronous operation** – Controlled by `i_Clk` for stable behavior.  
 
 ## **Potential Improvements**  
 - Add **button debouncing** logic for better reliability.  
