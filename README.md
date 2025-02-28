@@ -1,4 +1,4 @@
-# **Blink LED on Button Press (Falling Edge Triggered)**  
+# **Falling Edge Triggered LED Toggle (Push Button)**  
 
 ## **Description**  
 This Verilog module, `blink_LED`, toggles an LED (`o_LED`) each time a push button (`i_Button`) is released. The LED state changes on the **falling edge** of the button press, meaning when the button transitions from **high (1) to low (0)**.  
