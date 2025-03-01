@@ -24,4 +24,9 @@ This Verilog module, `blink_LED`, toggles an LED (`o_LED`) each time a push butt
 
 ## **Potential Improvements**  
 - Add **button debouncing** logic for better reliability.  
-- Modify logic to support **multiple LEDs or different button actions**.  
+- Modify logic to support **multiple LEDs or different button actions**.
+
+## **Simulation**
+- there is a testbench file included in the 'Simulation' folder along with a jpg of the waveform
+- waveform shows the LED toggle on the falling edge of the push button
+- simulation was ran in Vivado 
